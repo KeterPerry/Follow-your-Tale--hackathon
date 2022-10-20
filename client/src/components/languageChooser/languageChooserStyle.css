@@ -1,0 +1,44 @@
+.languages-drop-down {
+  cursor: pointer;
+  font-size: 1.6rem;
+  height: 15vh;
+  overflow-y: scroll;
+}
+
+@media (max-width: 790px) {
+  .languages-drop-down {
+    font-size: 1.2rem;
+  }
+}
+
+.language-chooser {
+  font-size: 1.6rem;
+}
+
+@media (max-width: 790px) {
+  .language-chooser {
+    font-size: 1.2rem;
+  }
+}
+
+.selector-label {
+  text-align: center;
+}
+
+.selector-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+
+@media (max-width: 450px) {
+  .selector-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 0;
+  }
+}
+/*# sourceMappingURL=languageChooserStyle.css.map */

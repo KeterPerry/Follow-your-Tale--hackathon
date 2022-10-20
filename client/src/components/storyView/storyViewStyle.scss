@@ -1,0 +1,28 @@
+@use "../../utils/styleVars";
+
+.story-view-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+
+    & > * {
+        align-self: center;
+        width: max-content;
+    }
+    .story-view {
+        background: $box-bg;
+        border-radius: 4px;
+        width: 50%;
+        height: 70vh;
+    }
+}
+
+.flip-book {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+    display: none;
+    background-size: cover;
+}
